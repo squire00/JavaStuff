@@ -1,12 +1,10 @@
 /*
-Star.java
+Reverse.java
 @Liam Connaughton
 05 November 2018
-More lines of text
-Yet more lines of text
 */
 import javax.swing.JOptionPane;
-public class Star{
+public class Reverse{
 	public static void main(String args[]){
 
 	String word;
@@ -18,11 +16,11 @@ public class Star{
 
 	len= word.length();
 
-	for(int i=0;i<len; i=i+1){
+	for(int i=len-1;i>=0; i=i-1){
 
-	System.out.print("*");
+	JOptionPane.showMessageDialog(null, word.charAt(i));
 	}
-
+	JOptionPane.showMessageDialog(null, "So the word is  " +word);
 
 	}
 
