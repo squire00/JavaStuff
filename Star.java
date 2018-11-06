@@ -2,6 +2,7 @@
 Star.java
 @Liam Connaughton
 05 November 2018
+More lines of text
 */
 import javax.swing.JOptionPane;
 public class Star{
